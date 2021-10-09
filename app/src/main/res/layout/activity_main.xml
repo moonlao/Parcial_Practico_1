@@ -46,8 +46,8 @@
 
     <EditText
         android:id="@+id/remTxt"
-        android:layout_width="308dp"
-        android:layout_height="93dp"
+        android:layout_width="310dp"
+        android:layout_height="100dp"
         android:layout_marginStart="64dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="64dp"
@@ -67,6 +67,7 @@
         android:text="Nuevo Recordatorio"
         android:textColor="#000000"
         android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -87,11 +88,11 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="44dp"
         android:text="Posición en el mural"
         android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.171"
+        app:layout_constraintHorizontal_bias="0.175"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/greenBtn" />
 
@@ -111,7 +112,7 @@
         android:layout_width="133dp"
         android:layout_height="50dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="20dp"
         android:ems="10"
         android:hint="Posición X"
         android:inputType="number"
@@ -147,8 +148,8 @@
 
     <Button
         android:id="@+id/redBtn"
-        android:layout_width="84dp"
-        android:layout_height="84dp"
+        android:layout_width="85dp"
+        android:layout_height="82dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/red"
         android:text="Rojo"
